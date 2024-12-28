@@ -1,0 +1,34 @@
+Call the setup file.
+
+Example:
+
+.\VSCodeSetup-x64-1.93.1.exe /help
+
+This will launch the help menu and provide silent install switches.
+
+Install Command:
+
+VSCodeSetup-x64-1.93.1.exe /VERYSILENT
+
+Uninstall Command:
+
+This can be found in the regeditor at --
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\
+
+In the case of VS Code it is --
+
+"C:\Program Files\Microsoft VS Code\unins000.exe" /SILENT
+
+For Detection Rules --
+
+Go to the following path.
+
+"C:\Program Files\"
+
+Then locate the exe.
+
+Copy exe as path.
+
+
+
