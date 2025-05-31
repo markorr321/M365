@@ -1,3 +1,30 @@
+<#
+.SYNOPSIS
+    Bulk updates user attributes in Microsoft Entra ID (Azure AD) from a CSV file.
+
+.DESCRIPTION
+    This PowerShell script connects to Microsoft Entra ID and reads user update information from a CSV file.
+    It updates the following user attributes if provided:
+        - Job Title
+        - Company Name
+        - Mobile Number
+        - Work Number (Telephone)
+        - Department
+        - Manager (via Manager UPN)
+
+    Each update is logged with timestamped results, including success, user not found, and error details.
+    The log is exported to a CSV file for auditing and review.
+
+.PARAMETER csvPath
+    Path to the input CSV file with columns: UserPrincipalName, Title, CompanyName, MobileNumber, WorkNumber, Department, ManagerUPN.
+
+.NOTES
+    - Requires Entra PowerShell module.
+    - Ensure proper permissions for reading and updating user attributes in Entra ID.
+    - Logs are saved to the same folder as the script for review.
+
+#>
+
 # Connect to Entra
 Connect-Entra
 
