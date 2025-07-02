@@ -1,0 +1,52 @@
+"CreatedDateTime": "2025-07-02T09:36:48.130572Z",
+    "Description": null,
+    "DisplayName": "M365 - Allow Secure Mobile Email (Outlook + MAM + MFA)",
+    "GrantControls": {
+      "AuthenticationStrength": {
+        "AllowedCombinations": null,
+        "CombinationConfigurations": null,
+        "CreatedDateTime": null,
+        "Description": null,
+        "DisplayName": null,
+        "Id": null,
+        "ModifiedDateTime": null,
+        "PolicyType": null,
+        "RequirementsSatisfied": null
+      },
+      "BuiltInControls": [
+        "mfa",
+        "approvedApplication",
+        "compliantApplication"
+      ],
+      "CustomAuthenticationFactors": [],
+      "Operator": "AND",
+      "TermsOfUse": []
+    },
+    "Id": "700f5a3d-bf9b-491f-a119-9abdd226edfa",
+    "ModifiedDateTime": null,
+    "SessionControls": {
+      "ApplicationEnforcedRestrictions": {
+        "IsEnabled": null
+      },
+      "CloudAppSecurity": {
+        "CloudAppSecurityType": null,
+        "IsEnabled": null
+      },
+      "DisableResilienceDefaults": null,
+      "PersistentBrowser": {
+        "IsEnabled": null,
+        "Mode": null
+      },
+      "SignInFrequency": {
+        "AuthenticationType": null,
+        "FrequencyInterval": null,
+        "IsEnabled": null,
+        "Type": null,
+        "Value": null
+      }
+    },
+    "State": "enabledForReportingButNotEnforced",
+    "TemplateId": null,
+    "AdditionalProperties": {}
+  }
+]
