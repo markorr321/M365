@@ -1,6 +1,6 @@
  "CreatedDateTime": "2025-07-02T09:32:50.7650495Z",
     "Description": null,
-    "DisplayName": "Block Mobile Email Access (Default)",
+    "DisplayName": "M365 - Block Mobile Email Access (Default)",
     "GrantControls": {
       "AuthenticationStrength": {
         "AllowedCombinations": null,
