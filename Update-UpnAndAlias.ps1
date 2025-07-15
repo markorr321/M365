@@ -1,3 +1,5 @@
+#Run Each Line one at a time!
+
 #Step 1: Connect to Microsoft Graph
 
 Connect-MgGraph -Scopes "User.ReadWrite.All", "Directory.AccessAsUser.All"
